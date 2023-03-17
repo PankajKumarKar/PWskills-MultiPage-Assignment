@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f4f5;
+  background-image: url("./images/stethoscope.png");
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: bottom;
+  font-weight: 400;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 100px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+header li a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  font-weight: 800;
+}
+header li a:hover {
+  text-decoration: underline rgb(60, 255, 0) 5px;
+  transition: 500ms;
+}
+header img {
+  width: 150px;
+  cursor: pointer;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img3,
+.img1,
+.img2 {
+  position: absolute;
+  bottom: 0px;
+  width: 30%;
+  right: 0px;
+}
+.img1 {
+  width: 30%;
+  z-index: 1;
+}
+.img2 {
+  width: 25%;
+  z-index: 1;
+}
+.img3 {
+  z-index: 3;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  justify-content: center;
+  margin-top: 70px;
+  gap: 20px;
+}
+.sec-heading {
+  width: 40%;
+  font-size: 42px;
+}
+.para {
+  width: 48%;
+  font-size: 17px;
+}
+.sec-button button {
+  width: fit-content;
+  padding: 12px 18px;
+  border: none;
+  color: black;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #20bc7e;
+}
+.sec-button button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.btm-png {
+  margin-bottom: 10px;
+  margin-left: 340px;
+}
+.mouse-png {
+  position: relative;
+  top: 28px;
+}
